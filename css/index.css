@@ -1,95 +1,86 @@
 .head{
-	width: 100%;/* 通屏效果百分百 */
-	height: 40px;/* 通屏效果高 */
-	background-color: #000;
-}
-.head-wenzi{
-	color: #b0b0b0;
-	float:left;
-	line-height: 40px;
-	font-size: 12px;
-	font-family: '微软雅黑','苹方'
-	font-weight: normal;
-	/*设置光标样式*/
-    cursor: pointer;
-}
-.head-wenzi:hover{/* 字体鼠标移入时 */
-    color:#fff;
+	width: 100%;
+	height: 40px;
+	background-color: #333;
 }
 .head-neikuan{
 	width: 1226px;
 	height: 40px;
 	margin: 0 auto;
-    font-size: 20px;
-    font-weight: bolder;
-
+}
+.head-wenzi{
+	font-size: 12px;
+	float: left;
+	color: #b0b0b0;
+	line-height: 40px;
+	font-weight: normal;
+	font-family: '微软雅黑','苹方';
+	cursor: pointer;
+	/* 设置光标样式 */
+}
+.head-wenzi:hover{
+	color: #fff;
 }
 .head-shuxian{
-	float:left;
-	color: #424242;
+	float: left;
 	line-height: 40px;
+	color: #424242;
 	font-size: 12px;
 	font-family: '微软雅黑','苹方';
 	font-weight: lighter;
 	margin: 0 6px;
-	
 }
 .head-left{
-	float:left;
+	float: left;
 }
 .head-right{
-	float:right;
+	float: right;
 }
-.nav-neikuan{  /* 万能解决属性超出部分隐藏 */
-	width: 1226PX;
-	height:100px;
+.nav-neikuan{
+	width: 1226px;
+	height: 100px;
 	margin: 0 auto;
-	overflow:hidden;
+	overflow: hidden;
 }
 .logo{
-	width:55px;
-	height:55px;
-	background-color: #ff6700;
-	margin-top:22.5px;
-	float:left;
-
+	width: 55px;
+	height: 55px;
+	background-color: orangered;
+	margin-top: 22.5px;
+	float: left;
 }
 .nav-wenzi{
-	float:left;
-	margin-left: 190px
-
+	float: left;
+	margin-left: 190px;
 }
 .nav-font{
-	float:left;
-	line-height:100px;
+	float: left;
+	line-height: 100px;
 	margin-right: 20px;
 	color: #333;
 	font-size: 16px;
-
 }
 .nav-font:hover{
-	color:orangered;
+	color: orangered;
 }
 .list{
 	width: 1226px;
 	height: 170px;
-	background-color: white;
-	margin: 0 auto;/* 居中对齐 */
-	margin-top: 14px;/* 上下间距 */
+	margin: 0 auto;
+	margin-top: 14px;
 }
-.list-tu{
+.list-img{
 	width: 316px;
 	height: 170px;
-	background-color: blue;
+	background-color: #5F5750;
 	float: left;
-	transition:all 0.5s linear;/* 匀速 */
+	transition: all 0.5s linear;
 }
-.list-tu1{
+.list-img1{
 	width: 234px;
-	background-color: #5f5750;
-	display: flex;/* (弹性盒子的设置) */
-	flex-wrap: wrap;/* 换行处理 */
-	justify-content: space-between;/* 水平方向两端对齐 */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	align-content: space-between;
 }
 .list-shuxian{
@@ -101,108 +92,104 @@
 .list-shuxian3{
 	margin-right: 6.5px;
 }
-.list-tu2{
+.list-img2{
+	margin: 0 15px 0 14px;
+}
+.list-img3{
 	float: right;
 }
-.list-tu3{
-	margin:0 15px;
-}
-.list-tu:hover{
-	box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+.list-img:hover{
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
 }
 .danpin{
-	width:1226px;
+	width: 1226px;
 	height: 438px;
-	background-color: blue;
-	margin: 0 auto;/* 居中对齐 */
-	margin-top: 26px;/* 上下间距 */
+	margin: 0 auto;
+	margin-top: 26px;
 }
 .danpin-top{
-	width:100%;
+	width: 100%;
 	height: 58px;
-	background-color: white;
 	line-height: 58px;
-	font-size: 22px;/* 文字尺寸 */
-	font-weight: 200;/* 文字粗细 */
-	color: #333;
-}
-.danpin-left{
-	float: left; 
 }
 .danpin-right{
-	width:70px;
+	width: 70px;
 	height: 25px;
-	background-color: yellow;
-    float:right;
-    margin-top: 16.5px;
+	float: right;
+	margin-top:16.5px;
+
+}
+.danpin-left{
+	float: left;
+	font-size: 22px;
+	font-weight: 200;
+	color: #333;
 }
 .danpin-right a{
 	width: 33px;
 	height: 23px;
 	float: left;
-	background-color: yellow;
-	border: 1px solid #333;
-	line-height: 25px;
-	text-align: center;/* 文字居中 */
+	border: 1px solid #e0e0e0;
+	line-height: 23px;
+	text-align: center;
 }
 .danpin-bottom{
-	width: 100%;
+	width: 1226px;
 	height: 380px;
-	background-color: white;
 }
-.danpin-contant{
+.danpin-content{
 	width: 234px;
 	height: 300px;
 	background-color: #fafafa;
-	border-top: 1px solid orangered;
-	padding-top: 39px;
-	float: left;
-	margin-right: 14px;
+	border-top: 1px solid ;
+	border-top-color: #ffac13;
+	padding-top:39px;
+	float: left; 
+	margin-right:14px; 
 }
 .danpin-img{
 	width: 160px;
 	height: 166px;
-	margin: 0 auto;/* 居中对齐 */
-	display:block;/* 改变元素分类 */
+	margin: 0 auto;
+	display: block;
 }
 .danpin-wenzi1{
 	font-size: 14px;
 	font-weight: 400;
 	color: #212121;
-	display: block;/* 改变元素分类 */
+	display: block;
 	margin-top: 22px;
-	text-align: center;/* 居中对齐 */
+	text-align: center;
 }
 .danpin-wenzi2{
 	font-size: 12px;
-	font-weight: normal;
 	color: #b0b0b0;
-	text-align: center;/* 居中对齐 */
+	font-weight: normal;
+	text-align: center;
 	margin-top: 3px;
 }
 .danpin-wenzi3{
-	font-size: 14px;
-	font-weight: 400;
-	color: orangered;
-	display: block;
+	font-size: 12px;
+	color: #ff6709;
+	font-weight: normal;
+	text-align: center;
 	margin-top: 12px;
-	text-align: center;/* 居中对齐 */
 }
-.danpin-contant1{
-	border-top-color: green;
+.danpin-content5{
+	margin-right: 0;
+	border-top-color: #00c0a5;
 }
-.danpin-contant2{
-	border-top-color: red;
+.danpin-content4{
+	border-top-color: #e53935;
 }
-.danpin-contant3{
-	border-top-color: blue;
+.danpin-content3{
+	border-top-color: #2196f3;
 }
-.danpin-contant4{
-	border-top-color: gray;
-	margin-right: 0px;
+.danpin-content2{
+	border-top-color: #83c44e;
 }
 .buy{
-	display: block;/* a标签设置大小时先设置分类display,a标签会默认字体颜色 */
+	display: block;
 	float: left;
 	width: 120px;
 	height: 40px;
@@ -210,11 +197,11 @@
 	margin-left: 12px;
 	color: #b0b0b0;
 	font-size: 12px;
-	line-height: 40px;/* 设置垂直方向设置 */
+	line-height: 40px;
 	text-align: center;
 }
-.buy .iconfont{/* 设置优先级，中间那空格隔开 */
-	font-size: 24px;
+.buy .iconfont{
+	font-size: 20px;
 }
 .buy:hover{
 	background-color: #fff;
@@ -223,119 +210,118 @@
 .list-icon{
 	width: 76px;
 	height: 82px;
-	display: flex;/* 设置弹性布局 */
-	flex-wrap: wrap;/* 设置所有都换行处理 */
-	justify-content: center;/* 水平居中 */
-	align-content: center;/* 垂直居中 */
-    
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	font-size: 12px;
+}
+.list-icon a{
+	color: rgba(255,255,255,0.7);
 }
 .list-icon .iconfont{
 	padding: 0 10px;
 	font-size: 24px;
+	color: rgba(255,255,255,0.7);
 }
-.list-icon a{/* lieticon下的a标签,更改文字大小 */
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 12px;
+.list-icon:hover a{
+	color: #fff;
 }
 .list-shuxian{
 	width: 1px;
 	height: 70px;
-	background-color: #665E57;
+	background-color: #665e57;
 }
 .list-shuxian1{
 	width: 65px;
 	height: 1px;
-	background-color: #665E57;
-
-}
-.list-icon:hover a{/* 鼠标移入时父元素变子元素 */
-	color: rgb(255, 255, 255)
+	background-color: #665e57;
 }
 .goods{
 	width: 100%;
 	background-color: #f5f5f5;
-	overflow: hidden;
 }
 .jiadian{
 	width: 1226px;
 	height: 686px;
-	margin: 0 auto;/* 块元素居中 */
-	margin-top: 30px;
+	margin: 0 auto;
 }
 .jiadian-top{
 	width: 100%;
 	height: 58px;
-	display: flex;/* 设置弹性布局 */
-	flex-flow: wrap;/* 设置所有都换行处理 */
-	justify-content: space-between;/* 水平方向居中 */
-	align-items: center;/* 垂直方向居中 */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
-.jiadian-wenzi{
+.jiadian-select{
 	width: 253px;
 	height: 58px;
-	display: flex;/* 设置弹性布局 */
-	flex-flow: wrap;/* 设置所有都换行处理 */
-	justify-content: space-between;/* 水平方向居中 */
-	align-items: center;/* 垂直方向居中 */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
-.jiadian-top h2{
-    font-size: 22px;
-    font-weight: 200;
-    color: #333;
-}
-.jiadian-wenzi a{/* 后代选择器 */
+.jiadian-select a{
 	font-size: 16px;
 	color: #333;
-	transition: all .5s linear;/* 加过度 */
+	transition: all .3s linear;
 }
-.jiadian-wenzi a:hover,.jiadian-wenzi .jiadian-active{/* 提高优先级 */
+.jiadian-select a:hover,.jiadian-select .jiadian-antive{
 	color: orangered;
-	border-bottom: 2px solid orangered ;/* 下划线 */
+	border-bottom: 2px solid orangered;
+}
+.jiadian-top h2{
+	font-size: 22px;
+	font-weight: 200;
+	color: #333;
 }
 .jiadian-bottom{
 	width: 100%;
 	height: 628px;
-/* 水平两端对齐效果为以下三行 */
-	display: flex;/* 设置弹性布局 */
-	flex-flow: wrap;/* 设置所有都换行处理 */
-	justify-content: space-between;/* 水平方向居中 */
-/* 	align-content: space-between;/* 垂直居中两端对齐 */ */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .jiadian-left{
 	width: 234px;
 	height: 100%;
-	background-color: goldenrod;
-	transition:all 0.5s linear;/* 匀速 */
+	background-color: skyblue;
+	transition: all .3s linear;
 }
 .jiadian-right{
 	width: 978px;
 	height: 100%;
-	display: flex;/* 设置弹性布局 */
-	flex-wrap: wrap;/* 设置所有都换行处理 */
-	justify-content: space-between;/* 水平居中两端对齐 */
-	align-content: space-between;/* 垂直居中两端对齐 */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
 }
 .jiadian-item{
 	width: 234px;
 	height: 300px;
-	background-color: white;
-	display: flex;/* 设置弹性布局 */
-	flex-flow: wrap;/* 设置所有都换行处理 */
-	justify-content: center;/* 水平方向居中 */
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
 }
 .jiadian-item1{
 	width: 64px;
 	height: 20px;
 	background-color: #e53935;
-	color: #fff;
-	line-height: 20px;/* 文字垂直居中 */
-	text-align: center;/* 文字水平居中 */
+	font-size: 12px;
+	color: white;
+	line-height: 20px;
+	text-align: center;
 	margin: 0 70px;
 }
 .jiadian-item2{
 	display: block;
 	width: 150px;
-	height: 156px;
+	height: 150px;
 	margin-top: 14px;
 }
 .jiadian-item3{
@@ -348,115 +334,258 @@
 	color: #b0b0b0;
 }
 .jiadian-item5{
-	color: #ff7600;
 	font-size: 14px;
+	color: #ff7600;
 	padding: 0 70px;
 }
-.jiadian-item:nth-child(3) .jiadian-item1,.jiadian-item:nth-child(6) .jiadian-item1{
-    background-color: yellowgreen;
-}
-.jiadian-item:nth-child(4) .jiadian-item1,.jiadian-item:nth-child(5) .jiadian-item1,
-.jiadian-item:nth-child(7) .jiadian-item1,.jiadian-item:nth-child(8) .jiadian-item1{
-    background-color: rgba(0, 0, 0, 0);/* 透明度 */
-
-}.jiadian-items{
-    width: 234px;
+.jiadian-items{
+	width: 234px;
 	height: 300px;
-	background-color: #f5f5f5;
+}
+.jiadian-item:hover .jiadian-item6{
+	bottom: 0px;
+}
+.jiadian-item:hover,.jiadian-items1:hover,.jiadian-left:hover,.video-item:hover{
+	box-shadow: 0px 10px 18px 5px rgba(0, 0, 0, .1);
+	transform: translateY(-5px);
 }
 .jiadian-items1{
 	width: 100%;
 	height: 93px;
 	background-color: white;
-	padding-top: 50px;/* 一旦加padding-top距离发生改变 */
+	padding-top: 50px;
+	transition: all .3s linear;
 }
-.jiadian-items1:nth-child(2){/* 按照位置找 */
+.jiadian-items1:nth-child(2){
 	margin-top: 14px;
 }
 .jiadian-items2{
 	width: 50%;
-	float: left;/* 靠左设置 */
-	text-align: center;/* 让文字属性继承 */
+	float: left;
+	text-align: center;
 }
 .jiadian-items2 .jiadian-item5{
 	padding: 0;
+	float: left;
+	margin-left: 23px;
 }
 .jiadian-items3{
 	width: 80px;
 	height: 80px;
-/* 	background-color: red; */
+	background-color: white;
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
+	margin-top: -20px;
 }
-.jiadian-items1:nth-child(2) .jiadian-item3{
+.liulan{
 	font-size: 18px;
 }
-/* .jiadian-items1:nth-child(2) .jiadian-item5{
-	font-size: 12px;
+.remen{
 	color: #757575;
-} */
-.jiadian-items3 .iconfont{
-	font-size: 48px;
+}
+.zhineng{
+	width: 100%;
+}
+.zhineng-top{
+	margin-top: 30px;
+}
+.lvse{
+	background-color: yellowgreen;
+}
+.touming{
+	background-color: rgba(0, 0, 0, 0)
+}
+.jiadian-item6{
+	width: 100%;
+	height: 80px;
+	background-color: orangered;
+	position: absolute;
+	bottom: -80px;
+	transition: all .3s linear;
+}
+.xinxiwenzi{
+	font-size: 12px;
+	color: #fff;
+	padding: 0 70px;
+}
+.tuijian{
+	height: 320px;
+}
+.datuijian{
+	height: 378px;
+}
+.video{
+	width: 1226px;
+	height: 343px;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+.video-top{
+	width: 90px;
+}
+.video-top a{
+	font-size: 16px;
+	color: #333;
+}
+.video-bottom{
+	width: 100%;
+	height: 285px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.video-item{
+	width: 296px;
+	height: 100%;
+	background-color: white;
+	transition: all .3s linear;
+}
+.video-item1{
+	width: 100%;
+	height: 180px;
+	position: relative;	
+}
+.video-item1 .play{
+	position: absolute;
+	left: 20px;
+	bottom: 10px;
+	font-size: 30px;
+	color: #fff;
+}
+.video-item2{
+	font-size: 14px;
+	color: #424242;
+	display: block;
+	text-align: center; 
+	margin-top: 28px;
+}
+.video-item3{
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	display: block;
+	margin-top: 6px;
+}
+.shipin-item2:hover{
 	color: orangered;
 }
-.jiadian-items1 .jiadian-item5{
-	color: #757575;
-}
-.jiadian-items1 .jiadian-item3{
-	margin-right: 20px;
-}
-.jiadian-left:hover{
-	box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-}
-.jiadian-item:hover{
-    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-    transition:all 0.5s linear;/* 匀速 */
-}
-.jiadian-items1:hover{
-    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-    transition:all 0.5s linear;/* 匀速 */
-}
-.jiadian-rights{
+.map{
 	width: 100%;
-	height: 628px;
+	height: 272px;
 	background-color: white;
-	display: flex;/* 设置弹性布局 */
-	flex-flow: wrap;/* 设置所有都换行处理 */
-	justify-content: center; *//* 水平方向居中*/
+	margin-top: 80px;
+}
+.map-top{
+	width: 1226px;
+	height: 80px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.map-icon{
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 18px;
 	
 }
-.jiadian-rights:hover{
-    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-    transition:all 0.5s linear;/* 匀速 */
-/* }
-.jiadian-lefts{
-	width: 234px;
-	height: 300px;
+.map-icon a{
+	color: rgba(0, 0, 0, 0.7)
 }
-.jiadian-lefts:hover{
-	box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-    transition:all 0.5s linear;/* 匀速 */
+.map-icon:hover a{
+	color: orangered;
 }
-.jiadian-itemm{
-	width: 234px;
-	height: 300px;
+.map-shuxian{
+	width: 1px;
+	height: 35px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-top: 20px;
+}
+.map-shuxian1{
+	width: 1226px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.map-middle{
+	width: 1226px;
+	height: 192px;
 	background-color: white;
-	display: flex;/* 设置弹性布局 */
-	flex-flow: wrap;/* 设置所有都换行处理 */
-	justify-content: center;/* 水平方向居中 */
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
 }
-.jiadian-itemm:hover{
-	box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
-    transition:all 0.5s linear;/* 匀速 */
+.map-middle-he{
+	width: 160px;
+	height: 112px;
+	background-color: white;
+	margin-top: 50px;
 }
-.jiadian-itemm:nth-child(3) .jiadian-item1,
-.jiadian-itemm:nth-child(2) .jiadian-item1,
-.jiadian-itemm:nth-child(4) .jiadian-item1,
-.jiadian-itemm:nth-child(5) .jiadian-item1{
-    background-color: yellowgreen;
+.map-shuxian3{
+	width: 1px;
+	height: 80px;
+	background-color:rgba(0, 0, 0, 0.3);
+	margin-top: 70px;
 }
-.jiadian-itemm:nth-child(7) .jiadian-item1,
-.jiadian-itemm:nth-child(8) .jiadian-item1,
-.jiadian-itemm:nth-child(9) .jiadian-item1{
-    background-color: white;
+.map-middle-he2{
+	width: 252px;
+	height: 112px;
+	background-color: white;
+	margin-top: 50px;
+}
+.he-wenzi{
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+.map-middle-he a{
+	display: inline;
+	margin-right: 80px;
+	line-height:24px;
+}
+.dianhua{
+	font-size: 20px;
+	color: orangered;
+}
+
+
+.kefi-iocn{
+	width: 120px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid red;
+
+	font-size: 12px;
+	margin: 0 auto;
+
+}
+.he-wenzi5{
+	text-align: center;
+
+}
+.kefi-iocn{
+	margin-left:70px;
+	margin-top: 8px;
+}
+.kefi-iocn:hover{
+	color: orangered;
+	background-color: orangered;
+}
+.kefi-iocn a{
+	line-height: 30px;
+	color: orangered;
+}
+.shijain{
+	color: rgba(0, 0, 0, 0.5)
+}
+.he-wenzi2{
+	color: rgba(0, 0, 0, 0.7)
+}
+.he-wenzi2:hover{
+	color: orangered;
+}
+.kefi-iocn a:hover{
+	color: white;
 }
