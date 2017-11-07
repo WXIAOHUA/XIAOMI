@@ -1,6 +1,6 @@
 .head{
-	width: 100%;
-	height: 40px;
+	width: 100%;/* 通屏效果百分百 */
+	height: 40px;/* 通屏效果高 */
 	background-color: #333;
 }
 .head-neikuan{
@@ -18,7 +18,7 @@
 	cursor: pointer;
 	/* 设置光标样式 */
 }
-.head-wenzi:hover{
+.head-wenzi:hover{/* 字体鼠标移入时 */
 	color: #fff;
 }
 .head-shuxian{
@@ -36,7 +36,7 @@
 .head-right{
 	float: right;
 }
-.nav-neikuan{
+.nav-neikuan{/* 万能解决属性超出部分隐藏 */
 	width: 1226px;
 	height: 100px;
 	margin: 0 auto;
@@ -66,21 +66,21 @@
 .list{
 	width: 1226px;
 	height: 170px;
-	margin: 0 auto;
-	margin-top: 14px;
+	margin: 0 auto;/* 居中对齐 */
+	margin-top: 14px;/* 上下间距 */
 }
 .list-img{
 	width: 316px;
 	height: 170px;
 	background-color: #5F5750;
 	float: left;
-	transition: all 0.5s linear;
+	transition: all 0.5s linear;/* 匀速 */
 }
 .list-img1{
 	width: 234px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	display: flex;/* (弹性盒子的设置) */
+	flex-wrap: wrap;/* 换行处理 */
+	justify-content: space-between;/* 水平方向两端对齐 */
 	align-content: space-between;
 }
 .list-shuxian{
@@ -104,8 +104,8 @@
 .danpin{
 	width: 1226px;
 	height: 438px;
-	margin: 0 auto;
-	margin-top: 26px;
+	margin: 0 auto;/* 居中对齐 */
+	margin-top: 26px;/* 上下间距 */
 }
 .danpin-top{
 	width: 100%;
@@ -121,8 +121,8 @@
 }
 .danpin-left{
 	float: left;
-	font-size: 22px;
-	font-weight: 200;
+	font-size: 22px;/* 文字尺寸 */
+	font-weight: 200;/* 文字粗细 */
 	color: #333;
 }
 .danpin-right a{
@@ -131,7 +131,7 @@
 	float: left;
 	border: 1px solid #e0e0e0;
 	line-height: 23px;
-	text-align: center;
+	text-align: center;/* 文字居中 */
 }
 .danpin-bottom{
 	width: 1226px;
@@ -150,14 +150,14 @@
 .danpin-img{
 	width: 160px;
 	height: 166px;
-	margin: 0 auto;
-	display: block;
+	margin: 0 auto;/* 居中对齐 */
+	display: block;/* 改变元素分类 */
 }
 .danpin-wenzi1{
 	font-size: 14px;
 	font-weight: 400;
 	color: #212121;
-	display: block;
+	display: block;/* 改变元素分类 */
 	margin-top: 22px;
 	text-align: center;
 }
@@ -189,7 +189,7 @@
 	border-top-color: #83c44e;
 }
 .buy{
-	display: block;
+	display: block;/* a标签设置大小时先设置分类display,a标签会默认字体颜色 */
 	float: left;
 	width: 120px;
 	height: 40px;
@@ -197,10 +197,10 @@
 	margin-left: 12px;
 	color: #b0b0b0;
 	font-size: 12px;
-	line-height: 40px;
+	line-height: 40px;/* 设置垂直方向设置 */
 	text-align: center;
 }
-.buy .iconfont{
+.buy .iconfont{/* 设置优先级，中间那空格隔开 */
 	font-size: 20px;
 }
 .buy:hover{
@@ -210,13 +210,13 @@
 .list-icon{
 	width: 76px;
 	height: 82px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
+	display: flex;/* 设置弹性布局 */
+	flex-wrap: wrap;/* 设置所有都换行处理 */
+	justify-content: center;/* 水平居中 */
+	align-content: center;/* 垂直居中 */
 	font-size: 12px;
 }
-.list-icon a{
+.list-icon a{/* lieticon下的a标签,更改文字大小 */
 	color: rgba(255,255,255,0.7);
 }
 .list-icon .iconfont{
@@ -224,7 +224,7 @@
 	font-size: 24px;
 	color: rgba(255,255,255,0.7);
 }
-.list-icon:hover a{
+.list-icon:hover a{/* 鼠标移入时父元素变子元素 */
 	color: #fff;
 }
 .list-shuxian{
@@ -262,10 +262,10 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.jiadian-select a{
+.jiadian-select a{/* 后代选择器 */
 	font-size: 16px;
 	color: #333;
-	transition: all .3s linear;
+	transition: all .3s linear;/* 加过度 */
 }
 .jiadian-select a:hover,.jiadian-select .jiadian-antive{
 	color: orangered;
@@ -345,7 +345,8 @@
 .jiadian-item:hover .jiadian-item6{
 	bottom: 0px;
 }
-.jiadian-item:hover,.jiadian-items1:hover,.jiadian-left:hover,.video-item:hover{
+.jiadian-item:hover,.jiadian-items1:hover,
+.jiadian-left:hover,.video-item,.reping-item:hover{
 	box-shadow: 0px 10px 18px 5px rgba(0, 0, 0, .1);
 	transform: translateY(-5px);
 }
@@ -413,6 +414,65 @@
 }
 .datuijian{
 	height: 378px;
+}
+.reping{
+	width: 1226px;
+	height: 473px;
+	margin: 0 auto;
+	margin-top: -10px;
+}
+.reping-bottom{
+	height: 415px;
+	width: 100%;
+ 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.reping-item{
+	width: 296px;
+	height: 100%;
+	background-color: white;
+	transition: all .3s linear;
+}
+.reping-item1{
+	width: 100%;
+	height: 220px;
+}
+.pingjia1{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 26px 30px;
+}
+.reping-jiage{
+	font-size: 14px;
+	color: #ff6709;
+	font-weight: normal;
+	float: right;
+	margin-right: 130px;
+}
+.pingjiaren1{
+	font-size: 12px;
+	color: #b0b0b0;
+	padding: 0 10px 0 0;
+	margin: 0 30px 8px;
+	font-weight: 400;
+}
+.pingjia11{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	margin: 0 10px 0 30px;
+	float: left;
+}
+.pingjiashuxian{
+	font-size: 14px;
+	color: #e0e0e0;
+	float: left;
+	margin-right: 0;
 }
 .video{
 	width: 1226px;
@@ -519,7 +579,7 @@
 	align-content: space-between;
 }
 .map-middle-he{
-	width: 160px;
+	width: 140px;
 	height: 112px;
 	background-color: white;
 	margin-top: 50px;
@@ -538,7 +598,7 @@
 }
 .he-wenzi{
 	margin-bottom: 8px;
-	font-size: 18px;
+	font-size: 14px;
 }
 .map-middle-he a{
 	display: inline;
@@ -549,8 +609,6 @@
 	font-size: 20px;
 	color: orangered;
 }
-
-
 .kefi-iocn{
 	width: 120px;
 	height: 30px;
@@ -559,7 +617,6 @@
 
 	font-size: 12px;
 	margin: 0 auto;
-
 }
 .he-wenzi5{
 	text-align: center;
@@ -581,11 +638,217 @@
 	color: rgba(0, 0, 0, 0.5)
 }
 .he-wenzi2{
-	color: rgba(0, 0, 0, 0.7)
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 14px;
 }
 .he-wenzi2:hover{
 	color: orangered;
 }
 .kefi-iocn a:hover{
 	color: white;
+}
+.banner{
+	width: 1226px;
+	height: 460px;
+	background-color: powderblue;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+}
+.banner-nav{
+	width: 234px;	
+	height: 420px;	
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px 0;
+    z-index: 999;
+}
+.banner-item{
+	width: 174px;
+	height: 42px;
+	padding: 0 30px;
+	font-size: 14px;
+	color: white;
+	line-height: 42px;
+	z-index: 999;
+
+}
+.banner-item span:nth-child(2){
+	float: right;
+}
+.banner-item:hover{
+	background-color: orangered;
+}
+.banner-btn{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 69px;
+	font-size: 40px;
+	color: #757575;
+	font-weight: 200;
+	z-index: 999;
+}
+.banner-btn:hover{
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+.lbtn{
+	left: 234px;
+}
+.rbtn{
+	right: 0;
+}
+.banner.banner-pages{
+	width: 140px!important; 
+	height: 10px;
+	position: absolute;
+	right:30px;
+	bottom: 10px!important;
+	z-index: 999;
+	left: auto!important;
+
+}
+.banner-pages .swiper-pagination-bullet{
+    width: 6px;
+	height: 6px;
+	background-color: #ccc;
+	border-radius: 50%;
+	float:left;
+	margin: 0 5px;
+	border: 2px solid #666;
+	cursor: pointer;
+}
+.nav-search{
+	width: 296px;
+	height: 50px;
+	background-color: skyblue;
+	float: right;
+	margin-top: 25px;
+}
+.sousuo{
+	width: 243px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	text-indent: 26px;
+	float: left;
+}
+.sousuo:focus{
+	outline: 1px solid orangered;
+}
+.nav-button{
+	width: 51px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #e0e0e0;
+	float: right;
+	outline: none;
+	font-size: 24px;
+}
+.nav-button:hover{
+	background-color: orangered;
+}
+.map-buttom{
+	width: 100%;
+	height: 166px;
+	background-color: #fafafa;
+
+}
+.map-buttom1{
+	width: 1226px;
+	height:57px;
+	background-color: #fafafa;
+	margin: 0 auto;
+	padding:  30px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+.buttom-left{
+	width:813px;
+	height: 57px;
+	background-color: blue; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+.buttom-left1{
+	width: 57px;
+	height: 57px;
+	background-color: orangered;
+	float: left;
+
+
+}
+.buttom-left2{
+	width: 746px;
+	height: 57px;
+	color: rgba(0, 0, 0, 0.7);
+	background-color:#fafafa;
+	display: block;
+	float: right;
+	font-size: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.ditu-shuxian{
+	width: 1px;
+	height: 12px;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: right;
+	margin-top: 2px;
+}
+.tgp{
+	width: 746px;
+	height: 35px;
+	background-color: #fafafafa;
+	color: rgba(0, 0, 0, 0.7);
+}
+.tgp1{
+	width: 746px;
+	height: 14px;
+	background-color: #fafafa;
+	color: rgba(0, 0, 0, 0.7);
+}
+.map-buttom-right{
+	width: 423px;
+	height: 57px;
+	background-color: #fafafa;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+.ditu-tubiao{
+	width: 85px;
+	height: 28px;
+	background-color: #fafafa;
+	margin-left: 20px;
+}
+.ditu-wenzi:hover{
+	color: orangered;
+}
+.ditu-page:hover{
+	color: orangered;
+
+}
+.ditu-wenzi{
+	color: rgba(0, 0, 0, 0.7);
 }

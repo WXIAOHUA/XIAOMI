@@ -6,10 +6,14 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="https:////at.alicdn.com/t/font_461542_sd8tbz1y30udi.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/jquery-min.js"></script>
+	<script src="js/swiper.min.js"></script>
+
 </head>
 <body>
 	<!-- 头部开始 -->
-	<div class="head">
+	<div class="head floor">
 		<div class="head-neikuan">
 			<div class="head-left">
 			<a href="" class="head-wenzi">小米商城</a href="">
@@ -52,9 +56,9 @@
 
 
 	<!-- 导航开始 -->
-	<div class="nav-neikuan">
+	<div class="nav-neikuan floor">
 		<div class="logo">
-			<img src="img/mi-logo.png" alt="">
+			<img attr="img/mi-logo.png" src="img/加载.gif" alt="">
 		</div>
 		<div class="nav-wenzi">
 			<a href="" class="nav-font">小米手机</a href="">
@@ -68,12 +72,73 @@
 			<a href="" class="nav-font">服务</a href="">
 			<a href="" class="nav-font">社区</a href="">
 		</div>
+
+		<div class="nav-search">
+			<input type="text" placeholder="请输入商品信息" class="sousuo">
+			<input type="button" class="nav-button iconfont"  value="&#xe617;">
+		</div>
 	</div>
 	<!-- 导航结束 -->
 
 
+    <!-- banner开始 -->
+	<div class="banner swiper-container floor">
+		<div class="swiper-wrapper">
+
+
+			<div class="banner-img swiper-slide">
+			<img attr="img/banner.jpg" src="img/加载.gif" alt="">
+		</div>
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner2.jpg" src="img/加载.gif" alt="">
+		</div>
+			<div class="banner-img swiper-slide">
+				<img attr="img/banner3.jpg" src="img/加载.gif" alt="">
+		</div>
+		    <div class="banner-img swiper-slide">
+				<img attr="img/banner4.jpg" src="img/加载.gif" alt="">
+		</div>
+		    <div class="banner-img swiper-slide">
+				<img attr="img/banner5.jpg" src="img/加载.gif" alt="">
+		</div>
+		    <div class="banner-img swiper-slide">
+				<img attr="img/banner6.jpg" src="img/加载.gif" alt="">
+		</div>
+		    <div class="banner-img swiper-slide">
+				<img attr="img/banner7.jpg" src="img/加载.gif" alt="">
+		</div>
+
+
+		</div>
+		
+		<div class="banner-nav">
+			<div class="banner-item"><span>手机 电话卡</span><span> > </span></div>
+			<div class="banner-item"><span>笔记本</span><span> > </span></div>
+			<div class="banner-item"><span>电视 盒子</span><span> > </span></div>
+			<div class="banner-item"><span>路由器 只能硬件</span><span> > </span></div>
+			<div class="banner-item"><span>移动电源 电池 插线板</span><span> > </span></div>
+			<div class="banner-item"><span>耳机 音响</span><span> > </span></div>
+			<div class="banner-item"><span>保护套 贴膜</span><span> > </span></div>
+			<div class="banner-item"><span>线材 支架 存储卡</span><span> > </span></div>
+			<div class="banner-item"><span>箱包 服饰 鞋 眼镜</span><span> > </span></div>
+			<div class="banner-item"><span>米兔 生活周边</span><span> > </span></div>
+		</div>
+		<div class="banner-btn lbtn swiper-button-prev swiper-button-white"> </div>
+		<div class="banner-btn rbtn swiper-button-next swiper-button-white"> </div>
+
+		<ul class="banner-pages swiper-pagination" type="square">
+			<!-- <li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li> -->
+		</ul>
+	</div>
+
 	<!-- 列表开始 -->
-	<div class="list">
+	<div class="list floor">
 		<div class="list-img list-img1">
 			<div class="list-icon">
 				<a href="" class="iconfont icon-xuangoushouji"></a>
@@ -110,20 +175,20 @@
 			</div>
 		</div>
 		<a href="" class="list-img list-img2">
-			<img src="img/绿.jpg" alt="">
+			<img attr="img/绿.jpg" src="img/加载.gif" alt="">
 		</a href="">
 		<a href="" class="list-img">
-			<img src="img/蓝.jpg" alt="">
+			<img attr="img/蓝.jpg" src="img/加载.gif" alt="">
 		</a href="">
 		<a href="" class="list-img list-img3">
-			<img src="img/黄.jpg" alt="">
+			<img attr="img/黄.jpg" src="img/加载.gif" alt="">
 		</a href="">
 	</div>
 	<!-- 列表结束 -->
 
 
 	<!-- 单品开始 -->
-	<div class="danpin">
+	<div class="danpin floor">
 		<div class="danpin-top">
 			<h2 class="danpin-left">小米明星单品</h2>
 			<div class="danpin-right">
@@ -134,35 +199,35 @@
 		<div class="danpin-bottom">
 				<div class="danpin-content">
 				<a href="" class="danpin-img">
-					<img src="img/1.png" alt="">
+					<img attr="img/1.png" src="img/加载.gif" alt="">
 					<a href="" class="danpin-wenzi1">红米note4X</a>
 					<h5 class="danpin-wenzi2">4100mAh超长续航，多彩金属</h5>
 					<h5 class="danpin-wenzi3">999元起</h5>
 				</div>
 				<div class="danpin-content danpin-content2">
 				<a href="" class="danpin-img">
-					<img src="img/2.png" alt="">
+					<img attr="img/2.png" src="img/加载.gif" alt="">
 					<a href="" class="danpin-wenzi1">小米Max 2</a>
 					<h5 class="danpin-wenzi2">大屏大电量，享多重好礼</h5>
 					<h5 class="danpin-wenzi3">1399元起</h5>
 				</div>
 				<div class="danpin-content danpin-content3">
 				<a href="" class="danpin-img">
-					<img src="img/3.png" alt="">
+					<img attr="img/3.png" src="img/加载.gif" alt="">
 					<a href="" class="danpin-wenzi1">红米4X</a>
 					<h5 class="danpin-wenzi2">4100mAh超长续航，8核处理器</h5>
 					<h5 class="danpin-wenzi3">699元起</h5>
 				</div>
 				<div class="danpin-content danpin-content4">
 				<a href="" class="danpin-img">
-					<img src="img/4.png" alt="">
+					<img attr="img/4.png" src="img/加载.gif" alt="">
 					<a href="" class="danpin-wenzi1">米家空气净化器Pro</a>
 					<h5 class="danpin-wenzi2">OLED显示屏幕，激光颗粒物传感器</h5>
 					<h5 class="danpin-wenzi3">1399元</h5>
 				</div>
 				<div class="danpin-content danpin-content5">
 				<a href="" class="danpin-img">
-				<img src="img/5.png" alt="">
+				<img attr="img/5.png" src="img/加载.gif" alt="">
 					<a href="" class="danpin-wenzi1">红米4X</a>
 					<h5 class="danpin-wenzi2">更快更好，不止天线</h5>
 					<h5 class="danpin-wenzi3">1399元</h5>
@@ -176,7 +241,7 @@
 	<!-- 商品开始 -->
 	<div class="goods">
 		<!-- 家电 -->
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top">
 				<h2>家电</h2>
 				<div class="jiadian-select">
@@ -188,13 +253,13 @@
 			</div>
 			<div class="jiadian-bottom">
 				<div class="jiadian-left">
-					<img src="img/净水器.jpg" alt="">
+					<img attr="img/净水器.jpg" src="img/加载.gif" alt="">
 				</div>
 				<div class="jiadian-right">
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右1.jpg" alt="">
+							<img attr="img/右1.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
@@ -205,7 +270,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1">享9折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右2.png" alt="">
+							<img attr="img/右2.png" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -214,7 +279,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右3.jpg" alt="">
+							<img attr="img/右3.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
@@ -223,7 +288,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右4.jpg" alt="">
+							<img attr="img/右4.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Air 13.3" i7处理器</a>
 						<span class="jiadian-item4">Intel酷睿i7处理器，8GB内存+256GB</span>
@@ -232,7 +297,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming">享8折</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右5.jpg" alt="">
+							<img attr="img/右5.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">米家恒温电水壶</a>
 						<span class="jiadian-item4">水温智能控制，304 不锈钢内胆</span>
@@ -241,7 +306,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右6.jpg" alt="">
+							<img attr="img/右6.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
@@ -250,7 +315,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右7.jpg" alt="">
+							<img attr="img/右7.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式）增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -263,7 +328,7 @@
 								<span class="jiadian-item5">399元</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/右8.jpg" alt="">
+								<img attr="img/右8.jpg" src="img/加载.gif" alt="">
 							</div>
 						</div>
 						<div class="jiadian-items1">
@@ -272,7 +337,7 @@
 								<span class="jiadian-item5 remen">热门</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/右9.png" alt="">
+								<img attr="img/右9.png" src="img/加载.gif" alt="">
 							</div>
 						</div>
 					</div>
@@ -280,7 +345,7 @@
 			</div>
 		</div>
 		<!-- 智能 -->
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top zhineng-top">
 				<h2>智能</h2>
 				<div class="jiadian-select">
@@ -294,12 +359,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right zhineng">
 					<div class="jiadian-item">
-						<img src="img/小米机器人.jpg" alt="">
+						<img attr="img/小米机器人.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/中1.jpg" alt="">
+							<img attr="img/中1.jpg" a src="img/加载.gif"lt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
@@ -308,7 +373,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/中2.jpg" alt="">
+							<img attr="img/中2.jpg" a src="img/加载.gif"lt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式）增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -317,7 +382,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/右8.jpg" alt="">
+							<img attr="img/右8.jpg" a src="img/加载.gif"lt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Air 13.3" i7处理器</a>
 						<span class="jiadian-item4">Intel酷睿i7处理器，8GB内存+256GB</span>
@@ -326,19 +391,19 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/中4.jpg" alt="">
+							<img attr="img/中4.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
 						<span class="jiadian-item5">949元</span>
 					</div>
 					<div class="jiadian-item">
-						<img src="img/米家相机.jpg" alt="">
+						<img attr="img/米家相机.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/中7.jpg" alt="">
+							<img attr="img/中7.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -347,7 +412,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/中8.jpg" alt="">
+							<img attr="img/中8.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
@@ -356,7 +421,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/中9.jpg" alt="">
+							<img attr="img/中9.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
@@ -369,7 +434,7 @@
 								<span class="jiadian-item5">399元</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/中10.jpg" alt="">
+								<img attr="img/中10.jpg" src="img/加载.gif" alt="">
 							</div>
 						</div>
 						<div class="jiadian-items1">
@@ -378,7 +443,7 @@
 								<span class="jiadian-item5 remen">热门</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/右9.png" alt="">
+								<img attr="img/右9.png" src="img/加载.gif" alt="">
 							</div>
 						</div>
 					</div>
@@ -386,7 +451,7 @@
 			</div>
 		</div>
 		<!-- 搭配 -->
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top zhineng-top">
 				<h2>搭配</h2>
 				<div class="jiadian-select">
@@ -399,12 +464,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right zhineng">
 					<div class="jiadian-item">
-						<img src="img/搭配1.jpg" alt="">
+						<img attr="img/搭配1.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配2.jpg" alt="">
+							<img attr="img/搭配2.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
@@ -413,7 +478,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配3.jpg" alt="">
+							<img attr="img/搭配3.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式）增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -422,7 +487,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配4.jpg" alt="">
+							<img attr="img/搭配4.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Air 13.3" i7处理器</a>
 						<span class="jiadian-item4">Intel酷睿i7处理器，8GB内存+256GB</span>
@@ -431,19 +496,19 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配5.jpg" alt="">
+							<img attr="img/搭配5.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
 						<span class="jiadian-item5">949元</span>
 					</div>
 					<div class="jiadian-item">
-						<img src="img/搭配6.jpg" alt="">
+						<img attr="img/搭配6.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配7.jpg" alt="">
+							<img attr="img/搭配7.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -452,7 +517,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配8.jpg" alt="">
+							<img attr="img/搭配8.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
@@ -461,7 +526,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配9.jpg" alt="">
+							<img attr="img/搭配9.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
@@ -474,7 +539,7 @@
 								<span class="jiadian-item5">399元</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/搭配10.jpg" alt="">
+								<img attr="img/周边10.png" src="img/加载.gif" alt="">
 							</div>
 						</div>
 						<div class="jiadian-items1">
@@ -483,7 +548,7 @@
 								<span class="jiadian-item5 remen">热门</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/右9.png" alt="">
+								<img attr="img/右9.png"  src="img/加载.gif"alt="">
 							</div>
 						</div>
 					</div>
@@ -491,34 +556,34 @@
 			</div>
 		</div>
 		<!-- 配件 -->
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top zhineng-top">
 				<h2>配件</h2>
 				<div class="jiadian-select">
 					<a href="" class="jiadian-antive">热门</a>
 					<a href="">保护套</a>
 					<a href="">贴膜</a>
-					<a href="">其他配件</a>
+					<a href="">其他配套</a>
 				</div>
 			</div>
 			<div class="jiadian-bottom">
 				<div class="jiadian-right zhineng">
 					<div class="jiadian-item">
-						<img src="img/配件1.jpg" alt="">
+						<img attr="img/周边1.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
-						<div class="jiadian-item1 touming"></div>
+						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件2.jpg" alt="">
+							<img attr="img/周边2.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
 						<span class="jiadian-item5">4399元</span>
 					</div>
 					<div class="jiadian-item">
-						<div class="jiadian-item1 touming"></div>
+						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/搭配3.jpg" alt="">
+							<img attr="img/周边3.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式）增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -527,28 +592,28 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件4.jpg" alt="">
+							<img attr="img/周边4.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Air 13.3" i7处理器</a>
 						<span class="jiadian-item4">Intel酷睿i7处理器，8GB内存+256GB</span>
 						<span class="jiadian-item5">5999元</span>
 					</div>
 					<div class="jiadian-item">
-						<div class="jiadian-item1 touming"></div>
+						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件5.jpg" alt="">
+							<img attr="img/周边5.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
 						<span class="jiadian-item5">949元</span>
 					</div>
 					<div class="jiadian-item">
-						<img src="img/配件6.jpg" alt="">
+						<img attr="img/周边6.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
-						<div class="jiadian-item1 touming"></div>
+						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件7.jpg" alt="">
+							<img attr="img/周边7.png" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -557,16 +622,16 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件8.jpg" alt="">
+							<img attr="img/周边8.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
 						<span class="jiadian-item5">5599元</span>
 					</div>
 					<div class="jiadian-item">
-						<div class="jiadian-item1 touming"></div>
+						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/配件9.jpg" alt="">
+							<img attr="img/周边9.png" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
@@ -579,7 +644,7 @@
 								<span class="jiadian-item5">399元</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/配件10.jpg" alt="">
+								<img attr="img/周边10.png" src="img/加载.gif" alt="">
 							</div>
 						</div>
 						<div class="jiadian-items1">
@@ -588,7 +653,7 @@
 								<span class="jiadian-item5 remen">热门</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/右9.png" alt="">
+								<img attr="img/右9.png"  src="img/加载.gif"alt="">
 							</div>
 						</div>
 					</div>
@@ -596,7 +661,7 @@
 			</div>
 		</div>
 		<!-- 周边 -->
-		<div class="jiadian">
+		<div class="jiadian floor">
 			<div class="jiadian-top zhineng-top">
 				<h2>周边</h2>
 				<div class="jiadian-select">
@@ -610,12 +675,12 @@
 			<div class="jiadian-bottom">
 				<div class="jiadian-right zhineng">
 					<div class="jiadian-item">
-						<img src="img/周边1.jpg" alt="">
+						<img attr="img/周边1.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边2.jpg" alt="">
+							<img attr="img/周边2.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
@@ -624,7 +689,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边3.jpg" alt="">
+							<img attr="img/周边3.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式）增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -633,7 +698,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边4.jpg" alt="">
+							<img attr="img/周边4.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Air 13.3" i7处理器</a>
 						<span class="jiadian-item4">Intel酷睿i7处理器，8GB内存+256GB</span>
@@ -642,19 +707,19 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边5.jpg" alt="">
+							<img attr="img/周边5.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
 						<span class="jiadian-item5">949元</span>
 					</div>
 					<div class="jiadian-item">
-						<img src="img/周边6.jpg" alt="">
+						<img attr="img/周边6.jpg" src="img/加载.gif" alt="">
 					</div>
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边7.png" alt="">
+							<img attr="img/周边7.png" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -663,7 +728,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边8.jpg" alt="">
+							<img attr="img/周边8.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
@@ -672,7 +737,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 lvse">新品</div>
 						<a href="" class="jiadian-item2">
-							<img src="img/周边9.png" alt="">
+							<img attr="img/周边9.png" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
@@ -685,7 +750,7 @@
 								<span class="jiadian-item5">399元</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/周边10.png" alt="">
+								<img attr="img/周边10.png" src="img/加载.gif" alt="">
 							</div>
 						</div>
 						<div class="jiadian-items1">
@@ -694,7 +759,7 @@
 								<span class="jiadian-item5 remen">热门</span>
 							</div>
 							<div class="jiadian-items3">
-								<img src="img/右9.png" alt="">
+								<img attr="img/右9.png"  src="img/加载.gif"alt="">
 							</div>
 						</div>
 					</div>
@@ -702,7 +767,7 @@
 			</div>
 		</div>
 		<!-- 为你推荐 -->
-		<div class="jiadian datuijian">
+		<div class="jiadian datuijian floor">
 			<div class="jiadian-top zhineng-top">
 				<h2>为你推荐</h2>
 				<div class="danpin-right">
@@ -710,13 +775,13 @@
 				<a href=""> > </a>
 				</div>
 			</div>
-			<div class="jiadian-bottom tuijian">
+			<div class="jiadian-bottom tuijian ">
 				<div class="jiadian-right zhineng">
 					
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/为你推荐1.jpg" alt="">
+							<img attr="img/为你推荐1.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">智米全直流变频空调</a>
 						<span class="jiadian-item4">一级能效，强劲冷暖</span>
@@ -725,7 +790,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/为你推荐2.jpg" alt="">
+							<img attr="img/为你推荐2.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米净水器（厨上式）增强版</a>
 						<span class="jiadian-item4">400 加仑大流量，纯水更多，废水更少</span>
@@ -734,7 +799,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/为你推荐3.jpg" alt="">
+							<img attr="img/为你推荐3.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A 49英寸 标准版</a>
 						<span class="jiadian-item4">2GB+8GB 大储存／全高清HDR</span>
@@ -743,7 +808,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/为你推荐4.png" alt="">
+							<img attr="img/为你推荐4.png" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米笔记本Pro 15.6英寸</a>
 						<span class="jiadian-item4">全金属强化机身/FHD全贴合屏幕</span>
@@ -752,7 +817,7 @@
 					<div class="jiadian-item">
 						<div class="jiadian-item1 touming"></div>
 						<a href="" class="jiadian-item2">
-							<img src="img/为你推荐5.jpg" alt="">
+							<img attr="img/为你推荐5.jpg" src="img/加载.gif" alt="">
 						</a>
 						<a href="" class="jiadian-item3">小米电视4A</a>
 						<span class="jiadian-item4">64位四核处理器/1GB+4GB大内存</span>
@@ -761,7 +826,55 @@
 				</div>
 			</div>
 		</div>
-		<!-- 视频开始 -->
+		<!-- 热评产品 -->
+		<div class="reping floor">
+			<div class="jiadian-top zhineng-top">
+				<h2>热评产品</h2>
+			</div>
+			<div class="reping-bottom">
+				<div class="reping-item">
+					<div class="reping-item1">
+						<img attr="img/热评1.jpg" src="img/加载.gif" alt="">
+					</div>
+					<a class="pingjia1">很小巧 像不喜欢戴活塞的人可以试试这种~很舒服包装还是一如既往的简洁 要是有盒子就好了=￣ω￣=</a>
+					<h5 class="pingjiaren1">来自于 鹤唳 的评价</h5>
+					<a class="pingjia11">小米胶囊耳机</a>
+					<h5 class="pingjiashuxian">|</h5>
+					<h5 class="reping-jiage">69元</h5>
+				</div>
+				<div class="reping-item">
+					<div class="reping-item1">
+						<img attr="img/热评2.jpg" src="img/加载.gif" alt="">
+					</div>
+					<a class="pingjia1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，手机控制还是不太熟练，最主要是没有连接...</a>
+					<h5 class="pingjiaren1">来自于 鹤唳 的评价</h5>
+					<a class="pingjia11">小米胶囊耳机</a>
+					<h5 class="pingjiashuxian">|</h5>
+					<h5 class="reping-jiage">69元</h5>
+				</div>
+				<div class="reping-item">
+					<div class="reping-item1">
+						<img attr="img/热评3.jpg" src="img/加载.gif" alt="">
+					</div>
+					<a class="pingjia1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，手机控制还是不太熟练，最主要是没有连接...</a>
+					<h5 class="pingjiaren1">来自于 鹤唳 的评价</h5>
+					<a class="pingjia11">小米胶囊耳机</a>
+					<h5 class="pingjiashuxian">|</h5>
+					<h5 class="reping-jiage">69元</h5>
+				</div>
+				<div class="reping-item">
+					<div class="reping-item1">
+						<img attr="img/热评4.jpg" src="img/加载.gif" alt="">
+					</div>
+					<a class="pingjia1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，手机控制还是不太熟练，最主要是没有连接...</a>
+					<h5 class="pingjiaren1">来自于 鹤唳 的评价</h5>
+					<a class="pingjia11">小米胶囊耳机</a>
+					<h5 class="pingjiashuxian">|</h5>
+					<h5 class="reping-jiage">69元</h5>
+				</div>
+			</div>
+		</div>
+	<!-- 视频开始 -->
 		<div class="video">
 			<div class="jiadian-top zhineng-top">
 				<h2>视频</h2>
@@ -888,18 +1001,120 @@
 			<div class="map-shuxian3"></div>
 
 			<div class="map-middle-he2">
-				<div class="he-wenzi5 dianhua">400-100-5678</div>
-				<div class="he-wenzi5 shijian">周一至周日8：00-18：00</div>
-				<div class="he-wenzi5 shijian">（仅收市话）</div>
+				<div class="he-wenzi5 ppp">400-100-5678</div>
+				<div class="he-wenzi5 kkk">周一至周日8：00-18：00</div>
+				<div class="he-wenzi5 kkk">（仅收市话）</div>
 				<div class="kefi-iocn">
 					<a href="" class="iconfont icon-xuangoushouji"></a>
 					<a href="">24小时在线客服</a>
 				</div>
 			</div>
 		</div>
+
+		<div class="map-buttom">
+			<div class="map-buttom1">
+				<div class="map-buttom-left">
+					<div class="buttom-left1">
+						<img src="img/mi-logo.png" alt="">
+					</div>
+					<div class="buttom-left2">
+						<a href="" class="ditu-wenzi">小米商城</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">MIUI</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">米聊</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">多看书城</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">小米路由器</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">视频电话</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">小米天猫店</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">小米淘宝直营店</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">小米网盟</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">小米移动</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">隐私政策</a>
+						<div class="ditu-shuxian"></div>
+
+						<a href="" class="ditu-wenzi">select </a>
+						
+						<div class="tgp">
+							<div class="tgp1">
+								<a href="" class="ditu-page">@mi.com</a>
+								<a href="" class="ditu-page">京icp证110507号</a>
+								<a href="" class="ditu-page">京icp备10046444</a>
+								<a href="" class="ditu-page">京公网安备11010802020134号</a>
+								<a href="" class="ditu-page">京网文[2014]0059-0009号</a>
+							</div>
+							<div class="tgp-wenzi">违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="map-buttom-right">
+					
+					<div class="ditu-tubiao">
+						<img src="img/站点1.png" alt="">
+					</div>
+					<div class="ditu-tubiao">
+						<img src="img/站点2.png" alt="">
+					</div>
+					<div class="ditu-tubiao">
+						<img src="img/站点3.png" alt="">
+					</div>
+					<div class="ditu-tubiao">
+						<img src="img/站点4.png" alt="">
+					</div>
+				</div>
+		</div>
 	</div>
 	<!-- 站点地图结束 -->
 
-
 </body>
 </html>
+
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 2000,//可选选项，自动滑动
+	effect : 'fade',
+	pagination : '.swiper-pagination',
+	prevButton:'.swiper-button-prev',
+	nextButton:'.swiper-button-next',
+	loop : true,
+})
+let floor = document.querySelectorAll(".floor");
+document.onscroll = function(){
+	var scrollTop=0; 
+	if(document.documentElement&&document.documentElement.scrollTop){ 
+	scrollTop=document.documentElement.scrollTop; 
+	}else if(document.body){ 
+	scrollTop=document.body.scrollTop; 
+	} 
+	for(let i = 0;i < floor.length;i++){
+		if(scrollTop > floor[i].offsetTop - 300){
+			var images=$('img',floor[i]);//获取该楼层中所有的图片
+			for(var j=0;j<images.length;j++){//将该楼层所有的图片路径转换为相应attr属性中的路径值
+				var attr=images[j].getAttribute('attr');
+				images[j].setAttribute('src',attr);
+				images.src=attr;     
+			}
+		}
+	}
+}
+
+</script>
