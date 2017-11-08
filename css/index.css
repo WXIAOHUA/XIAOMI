@@ -650,43 +650,44 @@
 .banner{
 	width: 1226px;
 	height: 460px;
-	background-color: powderblue;
+	background-color: red;
 	margin: 0 auto;
 	position: relative;
 }
 .banner-img{
 	width: 100%;
-	height: 100%;
+	height: 460px;
+	background-color: pink;
 }
 .banner-nav{
-	width: 234px;	
-	height: 420px;	
+	width: 234px;
+	height: 420px;
 	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
-    left: 0;
-    top: 0;
-    padding: 20px 0;
-    z-index: 999;
+	left: 0;
+	top: 0;
+	padding: 20px 0;
+	z-index: 999;
 }
 .banner-item{
-	width: 174px;
+	width:174px;
 	height: 42px;
+	/* background-color: red; */
 	padding: 0 30px;
 	font-size: 14px;
 	color: white;
 	line-height: 42px;
-	z-index: 999;
-
-}
-.banner-item span:nth-child(2){
-	float: right;
 }
 .banner-item:hover{
 	background-color: orangered;
 }
+.banner-item span:nth-child(2){
+	float: right;
+}
 .banner-btn{
 	width: 41px;
 	height: 69px;
+	/* background-color: rgba(0, 0, 0, 0.1); */
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -694,39 +695,43 @@
 	text-align: center;
 	line-height: 69px;
 	font-size: 40px;
-	color: #757575;
-	font-weight: 200;
 	z-index: 999;
 }
 .banner-btn:hover{
-	background-color: rgba(0, 0, 0, 0.6);
-	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
 }
-.lbtn{
+.banner .lbtn{
 	left: 234px;
+	/* z-index: 999; */
+
 }
 .rbtn{
 	right: 0;
+	/* z-index: 999; */
 }
-.banner.banner-pages{
-	width: 140px!important; 
+.banner .banner-pages{
+	width: 140px!important;
 	height: 10px;
+	/* background-color: blue; */
 	position: absolute;
-	right:30px;
-	bottom: 10px!important;
-	z-index: 999;
+	right: 30px;
 	left: auto!important;
-
+	bottom: 20px!important;
 }
 .banner-pages .swiper-pagination-bullet{
-    width: 6px;
+	width: 6px;
 	height: 6px;
-	background-color: #ccc;
+	background-color:  rgba(0, 0, 0, 0.5);
 	border-radius: 50%;
-	float:left;
+	float: left;
 	margin: 0 5px;
-	border: 2px solid #666;
-	cursor: pointer;
+	border: 2px solid rgba(255, 255,255, 0.5);
+	/* cursor: pointer; */
+	transition: all .5s linear;
+	z-index: 999;
+}
+.banner-pages .swiper-pagination-bullet:hover{
+	background-color: white;
 }
 .nav-search{
 	width: 296px;
